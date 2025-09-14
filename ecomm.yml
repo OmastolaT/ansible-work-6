@@ -11,7 +11,7 @@
 
     - name: Host Code
       git:
-      repo: https://github.com/OmastolaT/ecomm-3.git
-      dest: /var/www/html
+        repo: https://github.com/OmastolaT/ecomm-3.git
+        dest: /var/www/html
 
 ...
