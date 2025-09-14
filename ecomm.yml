@@ -1,6 +1,6 @@
 ---
 - name: deploy web app
-  hosts: n2
+  hosts: n1
   become: yes   # run with sudo privileges
 
   tasks:
