@@ -1,6 +1,6 @@
 ---
 - name: Install git and httpd on all
-  hosts: all
+  hosts2: g1
   become: yes  # Run as sudo
 
   tasks:
