@@ -1,5 +1,5 @@
 ---
-- name: Install git and httpd on all
+- name: Install git and httpd on g1
   hosts2: g1
   become: yes  # Run as sudo
 
