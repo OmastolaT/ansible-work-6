@@ -1,0 +1,17 @@
+---
+- name: deploy web app
+  hosts: n2
+  become: yes   # run with sudo privileges
+
+  tasks:
+    - name: Install git
+      yum:
+        name: git
+        state: present
+
+    - name: Host Code
+      git:
+      repo: https://github.com/OmastolaT/ecomm-3.git
+      dest: /var/www/html
+
+...
