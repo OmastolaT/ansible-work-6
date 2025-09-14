@@ -1,6 +1,6 @@
 ---
 - name: Install HTTP server
-  hosts2: g1
+  hosts: g1
   become: yes   # run with sudo privileges
 
   tasks:
